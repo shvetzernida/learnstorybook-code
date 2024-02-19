@@ -20,11 +20,11 @@
     "react-redux": "^9.0.4"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --force --open",
     "build": "vite build",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "sb": "storybook dev -p 6006",
+    "sb-build": "storybook build",
     "init-msw": "msw init public/"
   },
   "devDependencies": {
